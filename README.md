@@ -2,7 +2,7 @@
 
 ### Project:
 
-1. Nhớ tạo branch cho riêng mình và tạo pull request vô master.
+1. Nhớ tạo branch cho riêng mình, tiến độ công việc cập nhật ở develop.
 2. File template mọi người copy ra và thêm code tại dòng EDIT HERE.
 3. Các thành phần reuse: sidebar.js, header.js .
 4. Các thành phần reuse tồn tại dạng .js (ko phải html) là 1 trick tham khảo trên stackoverflow:
