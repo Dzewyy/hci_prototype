@@ -2,14 +2,14 @@
     DEMO STYLE
 */
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fafafa;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
@@ -25,7 +25,7 @@ a:focus {
 }
 
 .navbar {
-    padding: 15px 10px;
+    padding: 7px 7px;
     background: #fff;
     border: none;
     border-radius: 0;
@@ -50,7 +50,38 @@ i,
 span {
     display: inline-block;
 }
+/* ---------------------------------------------------
+    header STYLE
+----------------------------------------------------- */
+.form-group {
+    margin-bottom: 0rem !important;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 500px;
+}
 
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-left: 5px;
+}
+.row{
+    margin-bottom: 15px;
+}
+.col1{
+    text-align: center;
+}
+.option{
+    text-align: center;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
