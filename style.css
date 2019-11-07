@@ -73,6 +73,12 @@ span {
     color: #aaa;
     margin-left: 5px;
 }
+.title-content{
+    margin-bottom: 32px;
+}
+.txt1{
+    font-weight: 1000;
+}
 .row{
     margin-bottom: 15px;
 }
@@ -81,6 +87,15 @@ span {
 }
 .option{
     text-align: center;
+}
+.table-bordered {
+    border: 1px solid #979a9c !important;
+}
+.card-body{
+    background-color: #f7f7f7 !important;
+}
+.card-header{
+    background-color: #e5e4e4 !important;
 }
 /* ---------------------------------------------------
     SIDEBAR STYLE

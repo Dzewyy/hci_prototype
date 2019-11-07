@@ -49,7 +49,7 @@
         <script src="header.js"></script>
         <div class="row">
             <div class="col-md-5">
-              <div>
+              <div class="title-content">
                   <h4>Thông tin mục tiêu</h4>
               </div>
               <div class="row">
@@ -105,7 +105,7 @@
                       <label>Ngày bắt đầu</label>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                      <input type="text" name="taansuat" id="inputtaansuat" class="form-control"  required="required" >
+                        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
                     </div>
                </div>
                <div class="row">
@@ -113,7 +113,7 @@
                      <label>Ngày kết thúc</label>
                    </div>
                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                     <input type="text" name="taansuat" id="inputtaansuat" class="form-control"  required="required" >
+                        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
                    </div>
               </div>
               <div class="row">
@@ -177,7 +177,7 @@
                             <input type="text" name="taansuat" id="inputtaansuat" class="form-control"  required="required" >
                           </div>
                         </div>
-                        <h6> Tính điểm đánh giá</h6>
+                        <label class="txt1"> Tính điểm đánh giá</label>
                         <table class="table table-bordered">
                             <thead>
                               <tr class="col1">
@@ -190,28 +190,52 @@
                               <tr class="col1">
                                 <th scope="row">K &#60;70 </th>
                                 <td>1</td>
-                                <td>Otto</td>
+                                <td>
+                                    <select name="status"   class="form-control" >
+                                        <option value="true"> Đạt</option>
+                                        <option value="false">Không đạt</option>
+                                    </select>
+                                </td>
                               </tr>
                               <tr class="col1">
                                 <th scope="row">70 &#61;&#60; K &#61;&#60;80</th>
                                 <td>2</td>
-                                <td>Thornton</td>
+                                <td>
+                                    <select name="status"   class="form-control" >
+                                        <option value="true"> Đạt</option>
+                                        <option value="false">Không đạt</option>
+                                    </select>
+                                </td>
                               </tr>
                               <tr class="col1">
                                 <th scope="row">80 &#61;&#60; K &#61;&#60; 90</th>
                                 <td>3</td>
                                 <td>
+                                    <select name="status"   class="form-control" >
+                                        <option value="true"> Đạt</option>
+                                        <option value="false">Không đạt</option>
+                                    </select>
                                 </td>
                               </tr>
                               <tr class="col1">
                                   <th scope="row">90 &#61;&#60; K &#61;&#60; 100</th>
                                   <td>4</td>
-                                  <td>3</td>
+                                  <td>
+                                    <select name="status"   class="form-control" >
+                                        <option value="true"> Đạt</option>
+                                        <option value="false">Không đạt</option>
+                                    </select>
+                                </td>
                                 </tr>
                                 <tr class="col1">
                                     <th scope="row"> K &#62; 100</th>
                                     <td>5</td>
-                                    <td>3</td>
+                                    <td>
+                                        <select name="status"   class="form-control" >
+                                            <option value="true"> Đạt</option>
+                                            <option value="false">Không đạt</option>
+                                        </select>
+                                    </td>
                                   </tr>
                             </tbody>
                           </table>
