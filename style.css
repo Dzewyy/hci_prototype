@@ -116,6 +116,14 @@ span {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #6d7fcc;
+    text-align: center;
+}
+#sidebar .sidebar-muc {
+    padding-bottom: 2px;
+    padding-top: 6px;
+    padding-left: 10px;
+    background: #344796;
+    text-align: left;
 }
 
 #sidebar .sidebar-header strong {
@@ -124,13 +132,13 @@ span {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
     border-bottom: 1px solid #47748b;
+    margin-bottom: 0;
 }
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 0.95em;
     display: block;
 }
 
