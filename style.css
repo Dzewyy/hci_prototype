@@ -114,11 +114,24 @@ span {
 .name-page{
     padding-top: 16px;
     padding-left: 20px;
+    font-weight: 700;
+}
+
+.page-before {
+    color: #000000;
+    font-weight: 700;
+    
+}
+.page-current{
+    color: #1176e9;
+    font-weight: 700;
 }
 .txt1{
     font-weight: 1000;
 }
-
+.button-edit{
+    float: right;
+}
 .header-row{
     margin-bottom: 0px !important;
 }
