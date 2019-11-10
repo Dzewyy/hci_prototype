@@ -91,7 +91,7 @@ span {
 .user{
     float: right;
 }
-.dropdown-toggle{
+.dropdown-menu{
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -154,6 +154,7 @@ span {
 }
 .table th, td {
     vertical-align: middle !important;
+    text-align: center;
 }
 .card-body{
     background-color: #f7f7f7 !important;

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.   js"
         integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
@@ -55,20 +55,22 @@
                 <hr width="100%" />
                 <div>
                     <div class="row filter">
-                        <div class="col-sm-2 col-sm-2">
-                            <div style="text-align: center;">Chọn chỉ tiêu</div>
-                            <div style="vertical-align: middle; text-align: center;" class="dropdown">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                   10000
-                                </a>
-
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                        <div class="col-sm-1">
+                            <div style="text-align: center;">Chỉ tiêu</div>
+                            <div style="vertical-align: middle; text-align: center;">
+                                <input type="text" class="form-control" placeholder="1000">
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                            <div style="text-align: center;">Từ ngày</div>
+                            <div style="vertical-align: middle; text-align: center;">
+                                <input type="text" class="form-control" placeholder="05/10/2019">
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                            <div style="text-align: center;">Đến ngày</div>
+                            <div style="vertical-align: middle; text-align: center;">
+                                <input type="text" class="form-control" placeholder="05/11/2019">
                             </div>
                         </div>
                         <div class="col-sm-2 col-sm-2">
@@ -81,41 +83,42 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">Bộ phận marketing</a>
+                                    <a class="dropdown-item" href="#">Bộ phận kinh doanh</a>
+                                    <a class="dropdown-item" href="#">Bộ phận hành chính</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-2 col-sm-2">
-                            <div style="text-align: center;">Chọn vai trò</div>
+                        <div class="col-sm-1">
+                            <div style="text-align: center;">Vai trò</div>
                             <div style="vertical-align: middle; text-align: center;" class="dropdown">
                                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
                                     id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                    Nhân viên
+                                    Vai trò
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">Nhân viên</a>
+                                    <a class="dropdown-item" href="#">Bộ phận</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-2 col-sm-2">
                             <div style="text-align: center;">Người thực hiện</div>
                             <div style="vertical-align: middle; text-align: center;">
-                                    <input type="text" class="form-control" placeholder="ANguyenVan@congty.com">
+                                <input type="text" class="form-control" placeholder="ANguyenVan@congty.com">
                             </div>
                         </div>
-                        <div class="col-sm-3" style="bottom: 0;">
-                            <button class="btn btn-primary">Xem danh sách</button>
-                            <button class="btn btn-light">
-                                    <i class="fa fa-pencil"></i>
-                                Thêm KPI
-                            </button>
-                        </button>
+                        <div class="col-sm-2" style="position: relative;">
+                            <button class="btn btn-primary" style="position: absolute; bottom: 0; float: right;">Xem danh
+                                sách</button>
+                                <button class="btn btn-light" style="position: absolute; bottom: 0; margin-left: 9rem;">
+                                        <i class="fa fa-pencil"></i>
+                                        Thêm KPI
+                                    </button>
+                        </div>
+                        
                     </div>
                     <div class="row filter" style="font-size: 1.5rem; padding-top: 2rem; font-weight: bold;">
                         Thống kê danh sách KPI bộ phận sản xuất
@@ -145,6 +148,30 @@
                                     <button class="btn btn-danger">Xóa</button>
                                 </td>
                             </tr>
+                            <tr style="font-size: 15px; margin-bottom: auto">
+                                    <th id="name" scope="row">Xây dựng thẻ khách hàng</th>
+                                    <td id="priority">Tháng</td>
+                                    <td id="emp">05/10/2019</td>
+                                    <td id="monitor">05/11/2019</td>
+                                    <td id="start">Bộ phận sản xuất</td>
+                                    <td id="end">Thực hiện dựa trên mẫu thiết kế có sẵn</td>
+                                    <td id="detail">
+                                        <button class="btn btn-primary">Xem chi tiết</button>
+                                        <button class="btn btn-danger">Xóa</button>
+                                    </td>
+                                </tr>
+                                <tr style="font-size: 15px; margin-bottom: auto">
+                                        <th id="name" scope="row">Xây dựng thẻ khách hàng</th>
+                                        <td id="priority">Tháng</td>
+                                        <td id="emp">05/10/2019</td>
+                                        <td id="monitor">05/11/2019</td>
+                                        <td id="start">Bộ phận sản xuất</td>
+                                        <td id="end">Thực hiện dựa trên mẫu thiết kế có sẵn</td>
+                                        <td id="detail">
+                                            <button class="btn btn-primary">Xem chi tiết</button>
+                                            <button class="btn btn-danger">Xóa</button>
+                                        </td>
+                                    </tr>
                         </tbody>
                     </table>
                 </div>
