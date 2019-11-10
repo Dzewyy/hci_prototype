@@ -5,7 +5,7 @@ document.write( '                        <div class=\"col-md-12\">\n' );
 document.write( '                            <ul>\n' );
 document.write( '                                <li><a href=\"\">Tổng quan </a></li>\n' );
 document.write( '                                <li><a href=\"\" class=\"current\">Quản lý KPI</a></li>\n' );
-document.write( '                                <li><a href=\"\">Marketing </a></li>\n' );
+document.write( '                                <li><a href=\"\" >Marketing </a></li>\n' );
 document.write( '                            </ul>\n' );
 document.write( '                        </div>\n' );
 document.write( '                    </div>\n' );
