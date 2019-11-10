@@ -92,10 +92,13 @@ span {
 .user {
   float: right;
 }
-.dropdown-menu {
-  margin-left: 10em;
-  padding-left: 10px;
-  padding-right: 10px;
+
+.dropdown-menu{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.filter{
+    margin-left: 2rem;
 }
 .has-search .form-control-feedback {
   position: absolute;
@@ -132,8 +135,12 @@ span {
 .button-edit {
   float: right;
 }
-.header-row {
-  margin-bottom: 0px !important;
+
+.th .td{
+    vertical-align: middle;
+}
+.header-row{
+    margin-bottom: 0px !important;
 }
 .row {
   margin-bottom: 15px;
@@ -147,8 +154,13 @@ span {
 .table-bordered {
   border: 1px solid #979a9c !important;
 }
-.card-body {
-  background-color: #f7f7f7 !important;
+
+.table th, td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+.card-body{
+    background-color: #f7f7f7 !important;
 }
 .card-header {
   background-color: #e5e4e4 !important;
